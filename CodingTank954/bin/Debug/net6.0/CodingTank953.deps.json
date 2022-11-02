@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CodingTank953/1.0.0": {
+        "runtime": {
+          "CodingTank953.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodingTank953/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
