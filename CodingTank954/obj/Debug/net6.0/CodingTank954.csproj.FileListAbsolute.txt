@@ -1,0 +1,15 @@
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\bin\Debug\net6.0\CodingTank954.exe
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\bin\Debug\net6.0\CodingTank954.deps.json
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\bin\Debug\net6.0\CodingTank954.runtimeconfig.json
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\bin\Debug\net6.0\CodingTank954.dll
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\bin\Debug\net6.0\CodingTank954.pdb
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\obj\Debug\net6.0\CodingTank954.csproj.AssemblyReference.cache
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\obj\Debug\net6.0\CodingTank954.GeneratedMSBuildEditorConfig.editorconfig
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\obj\Debug\net6.0\CodingTank954.AssemblyInfoInputs.cache
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\obj\Debug\net6.0\CodingTank954.AssemblyInfo.cs
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\obj\Debug\net6.0\CodingTank954.csproj.CoreCompileInputs.cache
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\obj\Debug\net6.0\CodingTank954.dll
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\obj\Debug\net6.0\refint\CodingTank954.dll
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\obj\Debug\net6.0\CodingTank954.pdb
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\obj\Debug\net6.0\CodingTank954.genruntimeconfig.cache
+D:\DDocumentos\LetsCode\CodingTank954\CodingTank954\obj\Debug\net6.0\ref\CodingTank954.dll
