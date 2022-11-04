@@ -120,10 +120,12 @@
             /*
              * ternário
              */
-            string ehEstudante = "S";
+            string estuda = "S";
 
+            //situação perfeita para um ternário
+            //if com condição simples e resultado simples
             bool estudanteLogico;
-            if (ehEstudante == "S")
+            if (estuda == "S")
             {
                 estudanteLogico = true;
             }
@@ -132,10 +134,10 @@
                 estudanteLogico = false;
             }
 
-            estudanteLogico = (ehEstudante == "S") ? true : false; // correto porém redundante
-            estudanteLogico = (ehEstudante == "S"); //a propria condição retorna true ou false
+            estudanteLogico = (estuda == "S") ? true : false; // correto porém redundante
+            estudanteLogico = (estuda == "S"); //a propria condição retorna true ou false
 
-            string estudanteString = (ehEstudante == "Sim") ? "S" : "N";
+            string estudanteString = (estuda == "Sim") ? "S" : "N";
         }
     }
 }
