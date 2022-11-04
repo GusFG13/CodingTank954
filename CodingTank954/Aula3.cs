@@ -94,7 +94,6 @@
 
             Console.WriteLine("CINEMA ADA\n");
             Console.WriteLine("Responda S - SIM ou N - NÃO\n");
-
             Console.WriteLine("Você é estudante?");
             bool estudante = (Console.ReadLine() == "S");
 
@@ -117,6 +116,26 @@
             {
                 Console.WriteLine("Você paga inteira! Que pena! :( ");
             }
+
+            /*
+             * ternário
+             */
+            string ehEstudante = "S";
+
+            bool estudanteLogico;
+            if (ehEstudante == "S")
+            {
+                estudanteLogico = true;
+            }
+            else
+            {
+                estudanteLogico = false;
+            }
+
+            estudanteLogico = (ehEstudante == "S") ? true : false; // correto porém redundante
+            estudanteLogico = (ehEstudante == "S"); //a propria condição retorna true ou false
+
+            string estudanteString = (ehEstudante == "Sim") ? "S" : "N";
         }
     }
 }
