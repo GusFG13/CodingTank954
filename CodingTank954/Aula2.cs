@@ -2,53 +2,53 @@
 {
     public class Aula2
     {
-        static void Main()
+        static void MainAula2()
         {
-            /*
-            DateTime dataHoje = new DateTime(2022, 11, 03);
 
-            Console.WriteLine(dataHoje);
+            //DateTime dataHoje = new DateTime(2022, 11, 03);
 
-            DateTime dataHoraHoje = new DateTime(2022, 11, 03, 19, 25, 30);
+            //Console.WriteLine(dataHoje);
 
-            Console.WriteLine(dataHoraHoje);
+            //DateTime dataHoraHoje = new DateTime(2022, 11, 03, 19, 25, 30);
 
-            DateTime dataHoraSistema = DateTime.Now;
+            //Console.WriteLine(dataHoraHoje);
 
-            Console.WriteLine(dataHoraSistema);
+            //DateTime dataHoraSistema = DateTime.Now;
 
-            Console.WriteLine(dataHoraHoje.Year);
+            //Console.WriteLine(dataHoraSistema);
 
-            Console.WriteLine(dataHoraSistema.ToShortDateString());
-            dataHoraSistema.ToShortTimeString();
+            //Console.WriteLine(dataHoraHoje.Year);
 
-            dataHoraSistema.AddDays(-5);
+            //Console.WriteLine(dataHoraSistema.ToShortDateString());
+            //dataHoraSistema.ToShortTimeString();
 
-            Console.WriteLine(dataHoraSistema.Hour);
-            Console.WriteLine(dataHoraSistema.DayOfYear);
+            //dataHoraSistema.AddDays(-5);
 
-            int idade = 10;
-            */
+            //Console.WriteLine(dataHoraSistema.Hour);
+            //Console.WriteLine(dataHoraSistema.DayOfYear);
 
-            //Console.WriteLine("Digite seu nome");
-            //string nome = Console.ReadLine();
+            //int idade = 10;
 
-            //Console.WriteLine("Digite sua idade");
-            //string idade = Console.ReadLine();
+
+            Console.WriteLine("Digite seu nome");
+            string nome = Console.ReadLine();
+
+            Console.WriteLine("Digite sua idade");
+            string idade = Console.ReadLine();
 
             //int idade2 = 10;
 
             //Console.WriteLine();
 
-            //string frase = "Bem-vindo(a) " + nome + " ao curso, Bonde dos " + idade2 + " anos.";
+            string frase = "Bem-vindo(a) " + nome + " ao curso, Bonde dos " + idade + " anos.";
 
-            //Console.WriteLine(frase);
+            Console.WriteLine(frase);
 
-            //frase = string.Format("Bem-vindo(a) {0} ao curso, Bonde dos {1} anos.", nome, idade2);
+            frase = string.Format("Bem-vindo(a) {0} ao curso, Bonde dos {1} anos", nome, idade);
 
-            //Console.WriteLine(frase);
+            Console.WriteLine(frase);
 
-            //Console.WriteLine($"Bem-vindo(a) {nome} ao curso, Bonde dos {idade2} anos.");
+            Console.WriteLine($"Bem-vindo(a) {nome} ao curso, Bonde dos {idade} anos.");
 
             /*//Exercicio: Crie um cadastro de uma biblioteca.
                     Leia os seguintes dados:
@@ -86,10 +86,14 @@
             DateTime dataHoje = Convert.ToDateTime("04/11/2022 05:08:24");
             Console.WriteLine(dataHoje);
 
+            Convert.ToDouble("");
+            Convert.ToDecimal("");
+
             //parse
             valorint = int.Parse("154");
             Console.WriteLine(valorint);
 
+            decimal.Parse("123");
 
             //tente converter criando uma variavel 
             int.TryParse("250", out int valorConvertido);
@@ -100,7 +104,7 @@
             Console.WriteLine("Conversão do valor incorreto");
             Console.WriteLine($"Conversão realizada com sucesso? {sucesso}");
             Console.WriteLine(valorint);
-            
+
             string valorTexto = "10";
 
             //bool conversaoRealizada = tipo.TryParse(valor que quero converte, variavel que receberá o valor)
@@ -148,7 +152,7 @@
             double multiplicacao = valor1 * valor2;
 
             double valor3 = 27.678541D;
-            
+
             Console.WriteLine(soma);
             Console.WriteLine(subtracao);
             Console.WriteLine(divisao);
@@ -160,6 +164,7 @@
             Console.WriteLine(valor4);
 
             Math.Sqrt(25);
+            
 
         }
     }
