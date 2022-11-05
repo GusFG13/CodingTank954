@@ -1,8 +1,8 @@
 ﻿namespace CodingTank954
 {
-    public class Aula3
+    public class Aula3Parte1
     {
-        static void Main()
+        static void MainAula3()
         {
             //Console.WriteLine("Digite um numero inteiro");
             //int numeroDigitado = int.Parse(Console.ReadLine());
