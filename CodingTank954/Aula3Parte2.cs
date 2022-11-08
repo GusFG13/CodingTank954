@@ -2,7 +2,7 @@
 {
     public class Aula3Parte2
     {
-        static void Main()
+        static void MainA3P2()
         {
             //int[] vetorInteiro;
             //vetorInteiro = new int[5];
@@ -45,6 +45,7 @@
             //decimal somaNotas = 0;
             //for (int contador = 0; contador < notasAluno.Length; contador++)
             //{
+            //    Console.WriteLine($"Valor do contador: {contador}\n\n");
             //    Console.WriteLine($"Digite a nota {contador + 1} do aluno: ");
             //    notasAluno[contador] = decimal.Parse(Console.ReadLine());
 
@@ -56,12 +57,12 @@
 
 
             //tente converter para uma variavel existente
-            bool sucesso = int.TryParse(Console.ReadLine(), out int valorint);
+            //bool sucesso = int.TryParse(Console.ReadLine(), out int valorint);
 
-            if (!sucesso)
-            {
-                Console.WriteLine("Conversão inválida!!!");
-            }
+            //if (!sucesso)
+            //{
+            //    Console.WriteLine("Conversão inválida!!!");
+            //}
 
         }
     }
