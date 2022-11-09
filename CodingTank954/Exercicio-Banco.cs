@@ -8,7 +8,7 @@ namespace CodingTank954
 {
     public class Exercicio2
     {
-        static void Main()
+        static void MainEx2()
         {
             /*
              * Faça um programa que apresente quatro opções:
